@@ -14,7 +14,7 @@ public class ConsumoAPI {
             .uri(URI.create(endereco))
             .build();
 
-        HttpResponse<String> response = null;
+        HttpResponse<String> response;
 
         try {
             response = client
